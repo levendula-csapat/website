@@ -1,5 +1,4 @@
-body
-{
+body {
 	max-width: 36em;
 	margin: 0 auto;
 	color: #6464d4;
@@ -8,69 +7,61 @@ body
 	text-align: justify;
 }
 
-header
-{
+header {
 	background: linear-gradient(to bottom, #e6e6fa 20%, #fff 80%);
 	padding: 2em 0;
 }
 
-footer
-{
+footer {
 	font-size: small;
 	margin-top: 3em;
 	text-align: center;
 }
 
-h1
-{
+h1 {
 	text-align: center;
 	font-size:  400%;
 	font-family: serif;
 }
-h1#maintitle
-{
+h1#maintitle {
 	display: block;
 	margin: 0 auto;
 }
 
-h1, h2, h3
-{
+h1, h2, h3 {
 	line-height: 1.1;
 }
 
-img#logo
-{
+ol {
+	column-fill: 2;
+}
+
+img#logo {
 	display: block;
 	margin: 0 auto;
 }
 
-a
-{
+a {
 	color: #9c64d4;
 	text-decoration: none;
 }
-a:link, a:visited
-{
+a:link, a:visited {
 	color: #9c64d4;
 }
-a:hover
-{
+a:hover {
 	background: #6464d4;
 	color: white;
 	padding: 2px;
 }
 
-div#linkicons
-{
+div#linkicons {
 	text-align: center;
 }
-div#linkicons > a
-{
+div#linkicons > a {
 	display: inline-block;
 }
 
-.full-background
-{
+.full-background {
 	width: 100vw;
 	height: auto;
 	position: relative;
@@ -80,13 +71,11 @@ div#linkicons > a
 	margin-right: -50vw;
 }
 
-.vcenter
-{
+.vcenter {
 	vertical-align: middle;
 }
 
-@media only screen and (max-width: 320px)
-{
+@media only screen and (max-width: 320px) {
 	body
 	{
 		margin-left: 1em;
@@ -99,4 +88,3 @@ code { white-space: pre-wrap; }
 span.smallcaps { font-variant: small-caps; }
 span.underline { text-decoration: underline; }
 div.column{ display: inline-block; vertical-align: top; width: 50%; }
-
