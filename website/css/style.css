@@ -33,7 +33,7 @@ h1, h2, h3 {
 }
 
 ol {
-	column-fill: 2;
+	column-count: 2;
 }
 
 img#logo {
